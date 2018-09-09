@@ -1,6 +1,12 @@
 {
   "compilerOptions": {
-    "lib": ["es6"],
+    "lib": [
+      "es6",
+      "dom",
+      "es5",
+      "scripthost",
+      "es2015.iterable"
+    ],
     "module": "commonjs",
     "noImplicitReturns": true,
     "outDir": "lib",
